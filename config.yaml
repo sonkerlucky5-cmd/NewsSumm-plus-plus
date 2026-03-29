@@ -1,0 +1,14 @@
+paths:
+  raw_data: data/raw/newssum.csv
+  processed_data: data/processed/newssum_plus_plus.xlsx
+  metrics_output: outputs/tables
+  graphs_output: outputs/graphs
+  results_output: results
+
+parameters:
+  min_doc_length: 50
+  min_summary_length: 5
+  spacy_model: en_core_web_sm
+  evaluation_sample_size: 50
+  evaluation_batch_size: 2
+  baseline_model: sshleifer/distilbart-cnn-12-6
