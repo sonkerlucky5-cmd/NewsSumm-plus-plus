@@ -1,0 +1,6 @@
+issue,count
+short_documents_under_60_words,7
+long_documents_over_120_words,0
+low_readability_below_50,7
+high_compression_above_0.35,1
+rows_with_no_entities,0

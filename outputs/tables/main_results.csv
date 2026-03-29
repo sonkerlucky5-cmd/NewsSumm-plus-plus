@@ -1,0 +1,2 @@
+model,rouge1_f1,rouge2_f1,rougeL_f1,notes
+Lead-word baseline,0.3213,0.0719,0.2506,"Baseline uses the first N article words, where N matches summary length."
